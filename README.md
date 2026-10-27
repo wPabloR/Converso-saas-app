@@ -16,21 +16,33 @@ Plataforma de aprendizaje con tutores IA por **voz en tiempo real**. Los usuario
 
 ## Puesta en marcha local
 
-### 1. Clonar e instalar
+### 1. Obtener el código e instalar dependencias
+
+Clona el repositorio (o descarga el ZIP desde GitHub) y entra en la carpeta del proyecto:
 
 ```bash
-git clone <tu-repo>
-cd saas-next
+git clone https://github.com/wPabloR/saas-app.git
+cd saas-app
 npm install
 ```
 
+> Si clonas en otra ruta o renombras la carpeta, usa ese nombre en lugar de `saas-app`.
+
 ### 2. Variables de entorno
 
+Crea tu fichero local a partir de la plantilla:
+
 ```bash
+# macOS / Linux
 cp .env.example .env.local
 ```
 
-Rellena `.env.local` con las claves de cada servicio (ver comentarios en `.env.example`).
+```powershell
+# Windows (PowerShell)
+Copy-Item .env.example .env.local
+```
+
+Rellena `.env.local` con las claves de cada servicio (los pasos 3–5 indican dónde obtener cada una; también hay comentarios en `.env.example`).
 
 ### 3. Clerk
 
