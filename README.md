@@ -22,7 +22,7 @@ Clona el repositorio (o descarga el ZIP desde GitHub) y entra en la carpeta del 
 
 ```bash
 git clone https://github.com/wPabloR/Converso-saas-app.git
-cd saas-app
+cd converso-saas-app
 npm install
 ```
 
