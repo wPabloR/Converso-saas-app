@@ -21,7 +21,7 @@ Plataforma de aprendizaje con tutores IA por **voz en tiempo real**. Los usuario
 Clona el repositorio (o descarga el ZIP desde GitHub) y entra en la carpeta del proyecto:
 
 ```bash
-git clone https://github.com/wPabloR/saas-app.git
+git clone https://github.com/wPabloR/Converso-saas-app.git
 cd saas-app
 npm install
 ```
